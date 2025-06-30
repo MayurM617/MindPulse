@@ -1,8 +1,8 @@
 # MindPulse
 EEG-based Emotion Detection system using XGBoost and Flask. Utilizes brainwave signals to classify emotional states (Positive, Neutral, Negative) and deploys a real-time web interface for user interaction.
-# Emotion Detection Using EEG Signals 🧠💬
+# Emotion Detection Using EEG Signals 
 
-This project implements a machine learning-based system to detect human emotions using EEG (Electroencephalography) signals. By leveraging the XGBoost algorithm and deploying the model via a Flask web application, the system can classify emotional states—**Positive**, **Neutral**, and **Negative**—based on brainwave data.
+This project implements a machine learning-based system to detect human emotions using EEG (Electroencephalography) signals. By leveraging the XGBoost algorithm and deploying the model via a Flask web application, the system can classify emotional states **Positive**, **Neutral**, and **Negative** based on brainwave data.
 
 🚀 Project Motivation
 Emotion-aware systems are increasingly vital in healthcare, e-learning, gaming, and human-computer interaction (HCI). EEG signals offer real-time and non-invasive insights into a user's emotional state. This project aims to make emotion recognition accessible, accurate, and deployable in practical environments.
@@ -24,7 +24,7 @@ Emotion-aware systems are increasingly vital in healthcare, e-learning, gaming, 
 | Frontend | HTML5, CSS3, JavaScript |
 | Hosting (Local) | Flask Server |
 
-📐 System Architecture
+ System Architecture
 
 1. **Data Collection**: EEG signal acquisition via Muse headband.
 2. **Preprocessing**: Noise removal, label encoding, and normalization.
@@ -32,7 +32,7 @@ Emotion-aware systems are increasingly vital in healthcare, e-learning, gaming, 
 4. **Model Training**: XGBoost with cross-validation and hyperparameter tuning.
 5. **Deployment**: Flask API with a user-friendly web interface.
 
- 📊 Results
+  Results
 
 - **Model Accuracy**: ~100% on the test set (confusion matrix shows perfect classification).
 - **Distribution**:
@@ -40,7 +40,7 @@ Emotion-aware systems are increasingly vital in healthcare, e-learning, gaming, 
   - NEUTRAL: 34.9%
   - NEGATIVE: 25.6%
 
-🖥️ Demo
+🖥 Demo
 Users can enter EEG band values via a web form and get real-time emotion predictions through a Flask API.
 
 
