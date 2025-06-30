@@ -9,7 +9,7 @@ Emotion-aware systems are increasingly vital in healthcare, e-learning, gaming, 
 
 🧠 Dataset
 - **Name**: EEG Brainwave Dataset: Feeling Emotions
-- **Source**: [Kaggle]((https://www.kaggle.com/datasets/birdy654/eeg-brainwave-dataset-feeling-emotions))
+- **Source**: https://www.kaggle.com/datasets/birdy654/eeg-brainwave-dataset-feeling-emotions
 - **Signals Captured**: TP9, TP10, AF7, AF8 (Muse Headband)
 - **Emotion Labels**: POSITIVE, NEGATIVE, NEUTRAL
 - **Format**: Preprocessed CSV with FFT features
